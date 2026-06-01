@@ -15,7 +15,7 @@ textos[i].classList.add("ativo");
 const contadores = document.querySelectorAll(".contador");
 const temoObjetivo1 = new Date("2024-06-21t00:00:00");
 const temoObjetivo2 = new Date("2024-09-21t00:00:00");
-const temoObjetivo3 = mew Date("2024-12-21t00:00:00");
+const temoObjetivo3 = new Date("2024-12-21t00:00:00");
 const temoObjetivo4 = new Date("2025-03-21t00:00:00");
 
 const tempos = [tempoObjetivo] {
@@ -50,3 +50,4 @@ function comecacronometro(){
     serinterval (atualizaCronometro,1000);
 
 } 
+function comecaCronometro();
